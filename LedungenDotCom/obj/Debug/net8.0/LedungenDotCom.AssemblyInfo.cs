@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LedungenDotCom")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9cea3ccc2e559f950afc5e1c660b23fe5d3d1ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("LedungenDotCom")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LedungenDotCom")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
