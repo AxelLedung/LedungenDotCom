@@ -21,7 +21,6 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #407340;
     margin-bottom: 60px;
 }
 
@@ -29,8 +28,6 @@ body {
     margin-bottom: 0px !important;
 }
 .container {
-    padding-top: 1rem;
-    background-color: white;
 }
 footer {
     background-color: white;
@@ -38,11 +35,16 @@ footer {
 footer .container {
     padding-top: 0px;
 }
-.front {
-    background-color: gray;
-    padding: 2rem 0;
+.modal-title {
+    background-color: #407340;
+    padding: 4rem 0;
 }
-.front .container {
-    background-color: transparent;
+.modal-title .container {
     color: white;
+}
+.modal-body {
+    background-color: #7a9f79;
+}
+.modal-body h2 {
+    border-bottom: 1px solid #407340;
 }

@@ -22,12 +22,14 @@ namespace LedungenDotCom.Controllers
         public async Task<IActionResult> SendEmail(ContactForm form)
         {
             if (!ModelState.IsValid)
+            {
                 return BadRequest("Invalid form data");
+            }
 
             string subject = "New Contact Form Submission";
             string body = $"Name: {form.Name}\nEmail: {form.Email}\nMessage:\n{form.Message}";
 
-            await _emailService.SendEmailAsync("yourname@gmail.com", subject, body);
+            await _emailService.SendEmailAsync(subject, body);
 
             // Return a simple success page
             return Content("Email sent successfully!");
